@@ -1,5 +1,2 @@
-# kaggle_to_postgres
-# kaggle_to_postgres
-# kaggle_to_postgres
-# kaggle_to_postgres
-# kaggle_to_postgres
+This script downloads a zipped dataset from a specified Rest Endpoint from Kaggle. It extracts its contents into memory, and uploads the extracted data into a PostgreSQL database. The script uses the **requests** library to handle HTTP requests, **pandas** to manipulate and read CSV data, **ZipFile** and **io** to manage the zip file and in-memory data streams. 
+The script also uses **sqlalchemy** to connect to and interact with the PostgreSQL database. In all, The script is designed to fetch the dataset, read the CSV file, and populate the data into a table named within the database.
