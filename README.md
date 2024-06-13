@@ -22,7 +22,7 @@ This script fetches data from a Kaggle endpoint, extracts it from a zip file, an
 
 ## Usage
 
-1. Run the script `fetch_and_populate.py` using Python:
+1. Run the script `populate.py` using Python:
 
    ```bash
    python populate.py
