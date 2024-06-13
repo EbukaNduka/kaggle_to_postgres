@@ -25,7 +25,7 @@ This script fetches data from a Kaggle endpoint, extracts it from a zip file, an
 1. Run the script `fetch_and_populate.py` using Python:
 
    ```bash
-   python fetch_and_populate.py
+   python populate.py
    ```
 
 2. The script will:
